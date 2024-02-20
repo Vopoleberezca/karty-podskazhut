@@ -119,8 +119,7 @@ header {
   text-decoration: none;
 }
 
-.header__theme-button_is-active::after,
-.theme_dark .header__theme-button_is-active::after {
+.header__theme-button_is-active::after {
   content: "";
   position: absolute;
   width: calc(100% + 8px);
@@ -184,8 +183,7 @@ header {
   position: relative;
 }
 
-.content__list-item::before,
-.theme_dark .content__list-item::before {
+.content__list-item::before {
   content: "";
   position: absolute;
   width: 15px;
@@ -228,6 +226,7 @@ header {
 }
 
 .content__picture {
+  display: block;
   width: 100%;
   object-fit: contain;
   object-position: center;
@@ -278,8 +277,7 @@ header {
   position: relative;
 }
 
-.colored-text::after,
-.theme_dark .colored-text::after {
+.colored-text::after {
   content: "";
   position: absolute;
   width: calc(100% + 8px);
